@@ -29,7 +29,7 @@ const Form: FC = () => {
 
   return (
     <>
-      <div className="shadow-2xl px-10 py-5">
+      <div className="shadow-xl px-10 py-5 rounded-lg">
         <h4 className="text-[28.4px] font-mediummb-2">
           Enter your contact details
         </h4>
@@ -98,7 +98,10 @@ const Form: FC = () => {
               />
             </div>
           </div>
-          <button type="submit" className=" bg-black mt-5">
+          <button
+            type="submit"
+            className="mt-5 w-full bg-black text-white py-2 rounded-md"
+          >
             Submit
           </button>
         </form>
