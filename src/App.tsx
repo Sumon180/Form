@@ -19,7 +19,7 @@ function App() {
               to={"/form2"}
               className="text-rose-500 px-2 py-1 hover:underline"
             >
-              Form2
+              Form22
             </Link>
           </div>
           <Routes>
